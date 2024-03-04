@@ -1,0 +1,15 @@
+{
+    "name": "fontai/spout-extended",
+    "version": "1.0",
+    "description": "Fontai extension for Box\\Spout library",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "box/spout": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fontai\\Spout\\": ""
+        }
+    }
+}
